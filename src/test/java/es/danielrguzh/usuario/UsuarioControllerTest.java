@@ -21,10 +21,9 @@ import static org.mockito.Mockito.*;
 import org.springframework.http.MediaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import es.danielrguezh.usuario.Usuario;
-import es.danielrguezh.usuario.UsuarioApplication;
-import es.danielrguezh.usuario.UsuarioController;
-import es.danielrguezh.usuario.UsuarioService;
+import es.danielrguezh.controller.UsuarioController;
+import es.danielrguezh.entites.Usuario;
+import es.danielrguezh.services.UsuarioService;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;

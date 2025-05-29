@@ -1,27 +1,28 @@
-package es.danielrguezh.usuario;
+package es.danielrguezh.entites;
 
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "usuario")
-public class Usuario {
+public class Rol {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     @Column(name = "name", nullable = false)
 	private String name;
-	
+
     /**
      * constructor vacio
      */
-	public Usuario() {
+	public Rol() {
 	}
 	
     /**
      * constructor con el nombre
      * @param name
      */
-	public Usuario(String name) {
+	public Rol(String name) {
 		this.name = name;
 	}
 
@@ -30,7 +31,7 @@ public class Usuario {
 	 * @param id
 	 * @param name
 	 */
-	public Usuario(int id, String name) {
+	public Rol(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
@@ -56,4 +57,5 @@ public class Usuario {
 	public String toString() {
 		return "Usuario [id=" + id + ", name=" + name + "]";
 	}
+
 }

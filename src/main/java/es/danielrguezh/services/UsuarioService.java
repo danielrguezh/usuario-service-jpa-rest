@@ -1,9 +1,12 @@
-package es.danielrguezh.usuario;
+package es.danielrguezh.services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import es.danielrguezh.entites.Usuario;
+import es.danielrguezh.repo.UsuarioRepository;
 
 @Component
 public class UsuarioService {

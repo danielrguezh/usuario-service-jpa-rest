@@ -9,9 +9,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.*;
 
-import es.danielrguezh.usuario.Usuario;
-import es.danielrguezh.usuario.UsuarioRepository;
-import es.danielrguezh.usuario.UsuarioService;
+import es.danielrguezh.entites.Usuario;
+import es.danielrguezh.repo.UsuarioRepository;
+import es.danielrguezh.services.UsuarioService;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.*;

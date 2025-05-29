@@ -1,4 +1,4 @@
-package es.danielrguezh.usuario;
+package es.danielrguezh;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
