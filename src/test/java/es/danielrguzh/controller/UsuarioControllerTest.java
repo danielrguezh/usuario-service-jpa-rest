@@ -1,4 +1,4 @@
-package es.danielrguzh.usuario;
+package es.danielrguzh.controller;
 
 
 

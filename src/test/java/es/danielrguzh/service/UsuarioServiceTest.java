@@ -1,4 +1,4 @@
-package es.danielrguzh.usuario;
+package es.danielrguzh.service;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;

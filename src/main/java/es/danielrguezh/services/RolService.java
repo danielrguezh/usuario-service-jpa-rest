@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import es.danielrguezh.entites.Rol;
+import es.danielrguezh.repo.RolRepository;
 
 @Component
 public class RolService {
